@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body {
+    min-width: 1366px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+    text-align: left;
+}
+
+.right {
+    float: right;
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.safe {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.col-cutline {
+    width: 1px;
+    height: 18px;
+    background: #F1F1F1;
+}
+
+.active {
+    color: #369ff7 !important;
+}
+
+@media screen and (max-width: 1366px) {
+    /* .safe {
+        width: 100%;
+    } */
+}
