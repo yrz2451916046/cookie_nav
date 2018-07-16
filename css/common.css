@@ -45,6 +45,11 @@ a {
     color: #369ff7 !important;
 }
 
+.main-body {
+    width: 100%;
+    text-align: center;
+}
+
 @media screen and (max-width: 1366px) {
     /* .safe {
         width: 100%;
